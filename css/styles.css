@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #181818;
+    background-color: #030303;
 }
 
 .header {
@@ -50,7 +50,8 @@ body {
 
 .latest-project{
     width: 100%;
-    margin-top: 220px;
+    height: 35vh;
+    margin-top: 160px;
     margin-bottom: 50px;
 }
 
