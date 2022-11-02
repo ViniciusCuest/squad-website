@@ -25,6 +25,20 @@ body {
     border-image-slice: 1;
 }
 
+.squad-logo {
+    width: 130px;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-select: none;
+    cursor: none;
+}
+
+.logo-footer img {
+    width: 80px;
+}
+
 .wrapper {
     position: relative;
     display: flex;
@@ -34,6 +48,28 @@ body {
     padding: 0 40px 0 40px;
 }
 
+.latest-project{
+    width: 100%;
+    margin-top: 220px;
+    margin-bottom: 50px;
+}
+
+.project-logo{
+    width: 300px;
+}
+.project-container{ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 10% 0 10%;
+}
+.project-container p {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 25px;
+    padding: 0 25px 0 25px ;
+}
 .brand-title {
     font-size: 42px;
     color: #fff;
@@ -48,66 +84,6 @@ body {
 .subject-title {
     font-size: 22pt;
     color: #FFF;
-}
-
-.card-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
-    padding: 0 20px 30px 20px;
-    border-bottom: 10px solid;
-    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
-    border-image-slice: 1;
-}
-
-.card {
-    width: calc(100% / 4);
-    height: 400px;
-    background-color: #000;
-    margin-top: 15px;
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px 10px 15px 10px;
-}
-.card-title{
-    margin-top: 15px;
-    font-size: 22px;
-    font-weight: 700;
-    color: #cacaca;
-}
-.card-description {
-    font: 14px;
-    margin-top: 15px;
-    text-align: center;
-    color: #aaaaaa;
-}
-.card-img {
-    width: 50%;
-}
-
-.card + .card {
-    margin-left: 15px;
-}
-
-.second-area {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 100px;
-    width: 100%;
-    margin-bottom: 50px;
-}
-
-.card-container.center{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    border: none;
 }
 
 .header-navigator ul {
@@ -140,10 +116,11 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    padding-right: 30px;
 }
 
-.footer>a {
+.footer > a {
     color: #fff;
 }
 
